@@ -1,0 +1,30 @@
+.popular{
+    /* gap : 10px; */
+    margin: auto;
+    max-width: 85%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.popular h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #160825;
+    margin-bottom: 20px;
+}
+
+
+.popular-container{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 150px;
+    row-gap: 50px;
+}
+
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #160825;
+}

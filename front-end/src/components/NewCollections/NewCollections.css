@@ -1,0 +1,30 @@
+.new-collections hr {
+  width: 200px;
+  height: 6px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #160825;
+}
+
+.new-collections h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #160825;
+  margin-bottom: 20px;
+}
+
+.new-collections {
+  gap: 10px;
+  margin: auto;
+  max-width: 85%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  justify-content: space-around;
+}
+
+.new-collections-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 50px;
+  row-gap: 50px;
+}

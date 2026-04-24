@@ -1,0 +1,15 @@
+.offers{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 50px 140px;
+    width: 65%;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+
+.offers-left button{
+    background-color: #ff4141;
+    color: white;
+    width: 150px;
+}

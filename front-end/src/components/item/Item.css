@@ -1,0 +1,44 @@
+.item-card{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: all 1.5s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.item-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.image-container{
+    max-height: 22  0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.item-image{
+    height: 200px;
+    object-fit: cover;
+}
+
+.item-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin: 10px 0;
+  height: 40px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.item-price {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
